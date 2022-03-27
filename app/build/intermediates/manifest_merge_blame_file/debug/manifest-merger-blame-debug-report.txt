@@ -1,0 +1,103 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aman.ecommerce"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:8:5-39:19
+14        android:name="com.aman.ecommerce.EcomApplication"
+14-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:10:9-40
+15        android:allowBackup="true"
+15-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:9:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:12:9-41
+20        android:networkSecurityConfig="@xml/network_security_config"
+20-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:16:9-69
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity
+25-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:19:9-27:20
+26            android:name="com.aman.ecommerce.ui.splash.SplashActivity"
+26-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:20:13-53
+27            android:theme="@style/MyTheme.NoActionBar" >
+27-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:21:13-55
+28            <intent-filter>
+28-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:22:13-26:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:23:17-69
+29-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:23:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:25:17-77
+31-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:25:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:28:9-30:44
+35            android:name="com.aman.ecommerce.ui.home.HomeActivity"
+35-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:29:13-49
+36            android:label="@string/home" />
+36-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:30:13-41
+37        <activity
+37-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:32:9-34:43
+38            android:name="com.aman.ecommerce.ui.cart.CartActivity"
+38-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:33:13-49
+39            android:label="@string/cart" />
+39-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:34:13-41
+40
+41        <meta-data
+41-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:36:9-38:57
+42            android:name="preloaded_fonts"
+42-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:37:13-43
+43            android:resource="@array/preloaded_fonts" />
+43-->C:\Users\HP\Desktop\E-Commerce-Sample-App-master\app\src\main\AndroidManifest.xml:38:13-54
+44
+45        <service
+45-->[androidx.room:room-runtime:2.2.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3da51d74ec203deb32946c02f5deb766\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+46            android:name="androidx.room.MultiInstanceInvalidationService"
+46-->[androidx.room:room-runtime:2.2.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3da51d74ec203deb32946c02f5deb766\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+47            android:exported="false" />
+47-->[androidx.room:room-runtime:2.2.2] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\3da51d74ec203deb32946c02f5deb766\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+48
+49        <provider
+49-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92fd56d241bfb6be0280d788b566f814\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+50            android:name="com.squareup.picasso.PicassoProvider"
+50-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92fd56d241bfb6be0280d788b566f814\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+51            android:authorities="com.aman.ecommerce.com.squareup.picasso"
+51-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92fd56d241bfb6be0280d788b566f814\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+52            android:exported="false" />
+52-->[com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\92fd56d241bfb6be0280d788b566f814\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+53        <provider
+53-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\41b1b78f76167ae9169a5afa46973960\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+54            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\41b1b78f76167ae9169a5afa46973960\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+55            android:authorities="com.aman.ecommerce.lifecycle-process"
+55-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\41b1b78f76167ae9169a5afa46973960\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+56            android:exported="false"
+56-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\41b1b78f76167ae9169a5afa46973960\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+57            android:multiprocess="true" />
+57-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\41b1b78f76167ae9169a5afa46973960\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+58    </application>
+59
+60</manifest>
